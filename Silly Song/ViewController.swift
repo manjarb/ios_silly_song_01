@@ -25,11 +25,6 @@ class ViewController: UIViewController {
         nameField.delegate = self
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
     func shortNameForName(name: String) -> String {
         let charSet = CharacterSet(charactersIn: "aeiou")
         var fullname = name
@@ -43,6 +38,9 @@ class ViewController: UIViewController {
             }
         }
         
+        if(fullname == "") {
+            return name
+        }
         return fullname
     }
     
