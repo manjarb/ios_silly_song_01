@@ -38,26 +38,24 @@
                                     <action selector="reset:" destination="BYZ-38-t0r" eventType="editingDidBegin" id="CZ3-AW-l0e"/>
                                 </connections>
                             </textField>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="bv9-2X-Ggy">
-                                <rect key="frame" x="67" y="141" width="240" height="128"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bv9-2X-Ggy">
+                                <rect key="frame" x="0.0" y="141" width="375" height="526"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="240" id="IR1-CO-yKi"/>
-                                    <constraint firstAttribute="height" constant="128" id="w7o-Oi-MTb"/>
-                                </constraints>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="bv9-2X-Ggy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="7MT-UD-fOx"/>
                             <constraint firstItem="ePy-cW-ViG" firstAttribute="top" secondItem="rNb-Al-fN6" secondAttribute="bottom" constant="20" id="ASP-9U-Rxn"/>
                             <constraint firstItem="bv9-2X-Ggy" firstAttribute="top" secondItem="ePy-cW-ViG" secondAttribute="bottom" constant="48" id="Ex7-IM-XYF"/>
                             <constraint firstItem="ePy-cW-ViG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="KWf-LP-rg7"/>
                             <constraint firstItem="rNb-Al-fN6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="PCn-HG-AYm"/>
                             <constraint firstItem="bv9-2X-Ggy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mHC-wV-EeN"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bv9-2X-Ggy" secondAttribute="trailing" id="o34-0J-LFp"/>
                             <constraint firstItem="rNb-Al-fN6" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="ozc-se-f1h"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="bv9-2X-Ggy" secondAttribute="bottom" id="tBF-5y-RBa"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
